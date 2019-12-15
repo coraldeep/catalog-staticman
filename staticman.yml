@@ -22,3 +22,5 @@ contact:
     - message
   transforms: 
     email: md5
+  reCaptcha:
+    enabled: false
