@@ -14,7 +14,7 @@ contact:
         format: iso8601
       type: date
   moderation: true
-  path: "data/message/{options.slug}"
+  path: "data/contact/{options.slug}"
   requiredFields: 
     - name
     - email
