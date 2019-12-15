@@ -1,5 +1,5 @@
 --- 
-message: 
+contact: 
   allowedFields: 
     - name
     - email
