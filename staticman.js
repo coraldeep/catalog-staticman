@@ -1,13 +1,12 @@
 --- 
-comments: 
+message: 
   allowedFields: 
     - name
     - email
-    - comment
-    - reply_to
+    - message
   branch: master
-  commitMessage: "New comment in {options.slug}"
-  filename: "comment-{@timestamp}"
+  commitMessage: "New message in {options.slug}"
+  filename: "message-{@timestamp}"
   format: yaml
   generatedFields: 
     date: 
@@ -19,6 +18,6 @@ comments:
   requiredFields: 
     - name
     - email
-    - comment
+    - message
   transforms: 
     email: md5
