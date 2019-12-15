@@ -14,7 +14,7 @@ message:
         format: iso8601
       type: date
   moderation: true
-  path: "data/comments/{options.slug}"
+  path: "data/message/{options.slug}"
   requiredFields: 
     - name
     - email
