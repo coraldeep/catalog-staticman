@@ -4,6 +4,8 @@ contact:
     - name
     - email
     - message
+    - redirect
+    - slug
   branch: master
   commitMessage: "New message in {options.slug}"
   filename: "message-{@timestamp}"
